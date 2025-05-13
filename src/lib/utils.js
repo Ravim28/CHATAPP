@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import jwt from "jsonwebtoken";
 
 export const generateToken = (userId, res) => {
@@ -14,3 +15,12 @@ export const generateToken = (userId, res) => {
 
   return token;
 };
+=======
+export function formatMessageTime(date) {
+  return new Date(date).toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+}
+>>>>>>> 03c9d9e (first commit)
